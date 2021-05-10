@@ -3,7 +3,6 @@
   "title": "Maxim 32 MCU",
   "description": "Maxim's microcontrollers provide low-power, efficient, and secure solutions for challenging embedded applications. Maxim's processors embed cutting-edge technologies to secure data and intellectual property, proven analog circuitry for real-world applications, and battery-conserving low power operation.",
   "homepage": "https://www.maximintegrated.com/en/products/digital/microcontrollers.html",
-  "license": "Apache-2.0",
   "keywords": [
       "dev-platform",
       "ultra-low-power",
@@ -17,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/platformio/platform-maxim32.git"
+    "url": "https://github.com/OS-Q/P246.git"
   },
   "version": "4.0.0",
   "frameworks": {
     "mbed": {
       "package": "framework-mbed",
-      "script": "builder/frameworks/mbed.py"
+      "script": "extend/frameworks/mbed.py"
     }
   },
   "packages": {
